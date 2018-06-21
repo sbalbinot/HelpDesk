@@ -6,6 +6,6 @@ import com.stephano.helpdesk.api.entity.ChangeStatus;
 
 public interface ChangeStatusRepository extends MongoRepository<ChangeStatus, String> {
 	
-	Iterable<ChangeStatus> findByTicketIdOrderByDateDescOrderByChangeStatusDesc(String ticketId);
+	Iterable<ChangeStatus> findByTicketIdOrderByDateDesc(String ticketId);
 	
 }
