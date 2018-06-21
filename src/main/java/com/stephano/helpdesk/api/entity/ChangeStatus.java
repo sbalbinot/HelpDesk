@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import com.stephano.helpdesk.api.enums.StatusEnum;
 
 @Document
-public class Status {
+public class ChangeStatus {
 
 	@Id
 	private String id;
